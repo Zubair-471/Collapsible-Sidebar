@@ -60,33 +60,33 @@ function handleResize() {
 function handleKeyboard(event) {
     // Escape key to close sidebar
     if (event.key === 'Escape' && sidebar.classList.contains('open')) {
-        sidebar.classList.remove('open');
-    }
-    
-    // Ctrl/Cmd + B to toggle sidebar
+            sidebar.classList.remove('open');
+        }
+        
+        // Ctrl/Cmd + B to toggle sidebar
     if ((event.ctrlKey || event.metaKey) && event.key === 'b') {
         event.preventDefault();
-        toggleSidebar();
-    }
+            toggleSidebar();
+        }
 }
 
 // Handle touch gestures (mobile only)
-let touchStartX = 0;
-let touchEndX = 0;
-
+    let touchStartX = 0;
+    let touchEndX = 0;
+    
 function handleTouchStart(event) {
     touchStartX = event.changedTouches[0].screenX;
 }
 
 function handleTouchEnd(event) {
     touchEndX = event.changedTouches[0].screenX;
-    handleSwipe();
+        handleSwipe();
 }
-
-function handleSwipe() {
-    const swipeThreshold = 50;
-    const diff = touchStartX - touchEndX;
     
+    function handleSwipe() {
+        const swipeThreshold = 50;
+        const diff = touchStartX - touchEndX;
+        
     if (isMobile()) {
         // Swipe right to open sidebar
         if (diff > swipeThreshold && !sidebar.classList.contains('open')) {
