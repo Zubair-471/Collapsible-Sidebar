@@ -107,11 +107,6 @@ Add to the navigation list in `index.html`:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- [Font Awesome](https://fontawesome.com/) for the beautiful icons
-- The web development community for inspiration and best practices
-
 ---
 
 **Built with ❤️ using HTML, CSS, and JavaScript**
