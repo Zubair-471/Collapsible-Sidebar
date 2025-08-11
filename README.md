@@ -107,6 +107,12 @@ Add to the navigation list in `index.html`:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 👨‍💻 Author & Contact
+
+* **M. Zubair Tariq**
+* 📧 [M.ZubairTariq20@gmail.com](mailto:M.ZubairTariq20@gmail.com)
+* 💼 [LinkedIn](https://www.linkedin.com/in/muhammad-zubair-tariq-70209b364)
+* 🎯 [Fiverr – ZubairWebWorks](https://www.fiverr.com/ZubairWebWorks)
 ---
 
 **Built with ❤️ using HTML, CSS, and JavaScript**
